@@ -64,6 +64,7 @@
             this.btnCount.TabIndex = 2;
             this.btnCount.Text = "담그기";
             this.btnCount.UseVisualStyleBackColor = true;
+           // this.btnCount.Click += new System.EventHandler(this.btnCount_Click);
             // 
             // timer
             // 
