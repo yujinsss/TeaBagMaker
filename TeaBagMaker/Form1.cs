@@ -9,11 +9,23 @@ using System.Windows.Forms;
 
 namespace TeaBagMaker
 {
-    public partial class Form1 : Form
+    public partial class TeaBagMaker : Form
     {
-        public Form1()
+        String[] tList = new string[] { "홍차", "녹차", "루이보스차", "국화차" };
+
+        public TeaBagMaker()
         {
             InitializeComponent();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
